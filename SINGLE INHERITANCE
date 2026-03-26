@@ -1,4 +1,4 @@
-// Program 1: Single Inheritance
+//1: Single Inheritance
 
 #include <iostream>
 using namespace std;
