@@ -1,0 +1,22 @@
+//7: Constructor in Inheritance
+
+#include <iostream>
+using namespace std;
+
+class Base {
+public:
+    Base(int x) {
+        cout << "Base constructor: " << x << endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    Derived(int a, int b) : Base(a) {
+        cout << "Derived constructor: " << b;
+    }
+};
+
+int main() {
+    Derived obj(10, 20);
+}
